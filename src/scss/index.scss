@@ -1,0 +1,42 @@
+@import './_fonts.scss';
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Gilroy-Regular, sans-serif;
+  background-color: #000;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.root {
+  text-align: center;
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  h1 {
+    color: #fff;
+    font-family: Gilroy-Bold, sans-serif;
+  }
+  p {
+    color: blue;
+    font-family: Gilroy-Medium, sans-serif;
+  }
+  span {
+    color: red;
+    font-family: Gilroy-Light, sans-serif;
+  }
+}
