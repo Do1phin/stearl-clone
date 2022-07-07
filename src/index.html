@@ -1,15 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stearl-Clone</title>
+    <link rel="stylesheet" type="text/css" href="./src/scss/index.scss" />
   </head>
   <body>
-    <section class="container">
-      <div class="root">
-        <img src="./assets/images/logo.png" alt="logo" />
-        <h1>Stearl-Clone</h1>
+    <section class="relative hero">
+
+      <!-- Header-->
+      <header class="absolute flex flex-row flex-center header">
+        <div class="header__logo">
+          <img src="https://stearling.net/templates/scms/img/svg/logo.svg" alt="logo" />
+        </div>
+        <nav class="flex flex-center space-between header__top-nav">
+          <div class="flex space-between header__lang">
+            <a href="/uk" class="relative uppercase header__lang-item">uk</a>
+            <a href="/ru" class="relative uppercase header__lang-item">ru</a>
+            <a href="/en" class="relative uppercase header__lang-item">en</a>
+          </div>
+          <a href="tel:380442238217" class="header__phone">+38 (044) 223-82-17</a>
+          <a href="mailto:info@stearling.net" class="uppercase header__email">info@stearling.net</a>
+          <a class="relative uppercase header__cost">узнать стоимость</a>
+        </nav>
+      </header>
+
+      <!-- Header aside-nav -->
+      <nav class="absolute header__aside-nav aside-nav">
+        <ul class="flex flex-row space-between uppercase aside-nav__list">
+          <li class="aside-nav__item">
+            <a href="/" class="aside-nav__item-link">калькулятор</a>
+          </li>
+          <li class="aside-nav__item">
+            <a href="/" class="aside-nav__item-link">наша презентация</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header bside-nav -->
+      <nav class="absolute header__bside-nav bside-nav">
+        <ul class="flex flex-row space-between uppercase bside-nav__list">
+          <li class="bside-nav__item">
+            <a href="/" class="bside-nav__item-link">этапы разработки</a>
+          </li>
+          <li class="bside__item">
+            <a href="/" class="bside-nav__item-link">клиенты</a>
+          </li>
+          <li class="bside__item">
+            <a href="/" class="bside-nav__item-link">контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header content -->
+      <div class="relative flex flex-column header__content">
+
+        <!-- Header title top -->
+        <div class="relative header__title-top">
+          <span class="uppercase typing typing-left header__title-top-text"></span>
+          <div class="absolute small-figure1">
+            <div class="absolute small-figure__dots-wrapper">
+              <span class="absolute figure1 small-figure1-dot left-top-dot"></span>
+              <span class="absolute figure1 small-figure1-dot right-top-dot"></span>
+              <span class="absolute figure1 small-figure1-dot right-bottom-dot"></span>
+            </div>
+            <div class="absolute small-figure__lines-wrapper">
+              <span class="absolute figure1 horizontal-small-line top-line"></span>
+              <span class="absolute figure1 vertical-small-line right-line"></span>
+            </div>
+          </div>
+
+          <div class="absolute small-figure2">
+            <div class="absolute small-figure__dots-wrapper">
+              <span class="absolute figure2 small-figure2-dot left-top-dot"></span>
+              <span class="absolute figure2 small-figure2-dot right-top-dot"></span>
+              <span class="absolute figure2 small-figure2-dot right-bottom-dot"></span>
+              <span class="absolute figure2 small-figure2-dot left-bottom-dot"></span>
+            </div>
+            <div class="absolute small-figure__lines-wrapper">
+              <span class="absolute figure2 horizontal-small-line top-line"></span>
+              <span class="absolute figure2 vertical-small-line right-line"></span>
+              <span class="absolute figure2 horizontal-small-line bottom-line"></span>
+              <span class="absolute figure2 vertical-small-line left-line"></span>
+            </div>
+            <img class="absolute figure2 svg-icon" src="assets/images/icons/top_graph.svg" alt="graph" />
+          </div>
+        </div>
+
+        <!-- Header title bottom -->
+        <div class="relative header__title-bottom">
+          <span class="uppercase typing typing-left header__title-bottom-text"></span>
+          <div class="absolute small-figure3">
+            <div class="absolute small-figure__dots-wrapper">
+              <span class="absolute figure3 small-figure3-dot left-top-dot"></span>
+              <span class="absolute figure3 small-figure3-dot right-top-dot"></span>
+              <span class="absolute figure3 small-figure3-dot right-bottom-dot"></span>
+              <span class="absolute figure3 small-figure3-dot left-bottom-dot"></span>
+            </div>
+            <div class="absolute small-figure__lines-wrapper">
+              <span class="absolute figure3 horizontal-small-line top-line"></span>
+              <span class="absolute figure3 vertical-small-line right-line"></span>
+              <span class="absolute figure3 horizontal-small-line bottom-line"></span>
+              <span class="absolute figure3 vertical-small-line left-line"></span>
+            </div>
+            <img class="absolute figure3 svg-icon" src="assets/images/icons/top_brush.svg" alt="brush" />
+          </div>
+
+          <div class="absolute pulsar-dot"></div>
+        </div>
+
+        <!-- Header title -->
+        <h1 class="relative header__description"></h1>
+        <div class="relative header__empty-row">
+          <div class="absolute small-figure4">
+            <div class="absolute small-figure__dots-wrapper">
+              <span class="absolute figure4 small-figure4-dot left-top-dot"></span>
+              <span class="absolute figure4 small-figure4-dot right-top-dot"></span>
+              <span class="absolute figure4 small-figure4-dot right-bottom-dot"></span>
+              <span class="absolute figure4 small-figure4-dot left-bottom-dot"></span>
+            </div>
+            <div class="absolute small-figure__lines-wrapper">
+              <span class="absolute figure4 horizontal-small-line top-line"></span>
+              <span class="absolute figure4 vertical-small-line right-line"></span>
+              <span class="absolute figure4 horizontal-small-line bottom-line"></span>
+              <span class="absolute figure4 vertical-small-line left-line"></span>
+            </div>
+            <img class="absolute figure4 svg-icon" src="assets/images/icons/top_doc.svg" alt="doc" />
+          </div>
+        </div>
+
+        <!-- Header achievements-top -->
+        <div class="relative header__achievements-top">
+          <div class="absolute big-figure1">
+            <div class="absolute big-figure__dots-wrapper">
+              <span class="absolute big-figure1-dot left-top-dot"></span>
+              <span class="absolute big-figure1-dot right-top-dot"></span>
+              <span class="absolute big-figure1-dot right-bottom-dot"></span>
+              <span class="absolute big-figure1-dot left-bottom-dot"></span>
+            </div>
+            <div class="absolute big-figure__lines-wrapper">
+              <span class="absolute horizontal-big-line top-line"></span>
+              <span class="absolute vertical-big-line right-line"></span>
+              <span class="absolute horizontal-big-line bottom-line"></span>
+              <span class="absolute vertical-big-line left-line"></span>
+            </div>
+            <div class="absolute achievements__text">
+              <span class="achievements__title">ТОП-10</span>
+              <p class="achievements__subtitle">Среди лучших <br> веб-студий Украины</p>
+            </div>
+          </div>
+          <div class="absolute big-figure2">
+            <div class="absolute big-figure__dots-wrapper">
+              <span class="absolute big-figure2-dot left-top-dot"></span>
+              <span class="absolute big-figure2-dot right-top-dot"></span>
+              <span class="absolute big-figure2-dot right-bottom-dot"></span>
+              <span class="absolute big-figure2-dot left-bottom-dot"></span>
+            </div>
+            <div class="absolute big-figure__lines-wrapper">
+              <span class="absolute horizontal-big-line top-line"></span>
+              <span class="absolute vertical-big-line right-line"></span>
+              <span class="absolute horizontal-big-line bottom-line"></span>
+              <span class="absolute vertical-big-line left-line"></span>
+            </div>
+            <div class="absolute achievements__text">
+              <span class="achievements__title">7 лет</span>
+              <p class="achievements__subtitle">В разработке успешных <br> интернет проектов</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Header achievements-bottom -->
+        <div class="relative header__achievements-bottom">
+          <div class="absolute big-figure3">
+            <div class="absolute big-figure__dots-wrapper">
+              <div class="absolute big-figure3-dot left-top-dot"></div>
+              <div class="absolute big-figure3-dot right-bottom-dot"></div>
+              <div class="absolute big-figure3-dot left-bottom-dot"></div>
+            </div>
+            <div class="absolute big-figure__lines-wrapper">
+              <div class="absolute vertical-big-line right-line"></div>
+              <div class="absolute horizontal-big-line bottom-line"></div>
+              <div class="absolute vertical-big-line left-line"></div>
+            </div>
+            <div class="absolute achievements__text">
+              <span class="achievements__title">2 300 000</span>
+              <p class="achievements__subtitle">Пользователей посещают <br> наши сервисы и порталы</p>
+            </div>
+          </div>
+          <div class="absolute big-figure4">
+            <div class="absolute big-figure__dots-wrapper">
+              <div class="absolute big-figure4-dot left-top-dot"></div>
+              <div class="absolute big-figure4-dot left-bottom-dot"></div>
+            </div>
+            <div class="absolute big-figure__lines-wrapper">
+              <div class="absolute horizontal-big-line bottom-line"></div>
+              <div class="absolute vertical-big-line left-line"></div>
+            </div>
+            <div class="absolute achievements__text">
+              <span class="achievements__title">93%</span>
+              <p class="achievements__subtitle">Заказчиков работают <br> с нами повторно</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

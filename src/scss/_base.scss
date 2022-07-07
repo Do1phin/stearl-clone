@@ -1,0 +1,25 @@
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-center {
+  align-items: center;
+  text-align: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.uppercase {
+  text-transform: uppercase;
+}
