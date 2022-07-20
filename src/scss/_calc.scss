@@ -1,0 +1,110 @@
+@import 'colors';
+
+.calc-section {
+  background-color: $color-text-black;
+}
+
+.calc__title:after {
+  content: '';
+  position: absolute;
+  top: 140px;
+  left: calc(50% - 60px);
+  height: 2px;
+  width: 60px;
+  color: $color-text-yellow;
+}
+
+.calc__number {
+}
+.calc__title {
+  font-family: 'Gilroy-ExtraBold', sans-serif;
+  font-size: 46px;
+  color: $color-text-light-blue;
+  text-align: center;
+  margin-bottom: 80px;
+  //&:after {
+  //  content: "";
+  //  position: absolute;
+  //  height: 2px;
+  //  top: 140px;
+  //  left: calc(50% - 60px);
+  //  width: 60px;
+  //  color: $color-text-yellow;
+  //}
+}
+.calc__subtitle {
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-size: 26px;
+  color: $color-text-white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.calc__image {
+  .graph__browser {
+    left: 58px;
+    top: -30px;
+  }
+  .graph__screen {
+    left: 10px;
+    top: 10px;
+  }
+  .graph__norm-detail {
+    left: 99px;
+    top: 10px;
+  }
+  .graph__min-detail {
+    left: 99px;
+    top: 10px;
+  }
+  .graph__max-detail {
+    left: 99px;
+    top: 10px;
+  }
+  .graph__adaptive {
+    left: -40px;
+    top: 318px;
+  }
+  .graph__advertising {
+    left: 130px;
+    top: 420px;
+  }
+  .graph__integration {
+    left: 388px;
+    top: 290px;
+  }
+  .graph__testing {
+    left: 335px;
+    top: 390px;
+  }
+}
+
+.effectivity__title {
+  font-size: 22px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: $color-text-light-blue;
+}
+
+.left-col__percent {
+  color: $color-text-yellow;
+  font-size: 32px;
+}
+.right-col__percent {
+  color: $color-text-light-blue;
+  font-size: 32px;
+}
+.left-col__title,
+.right-col__title {
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-size: 11px;
+  color: $color-text-gray;
+  transform: rotate(270deg);
+  text-align: right;
+}
+.left-col__line {
+  background: url('/src/assets/images/graph/graph_mirror_yellow.png');
+}
+.calc__change-property {
+  font-size: 14px;
+  font-family: 'Gilroy-Light', sans-serif;
+  color: $color-text-light-blue;
+}

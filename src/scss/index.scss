@@ -1,5 +1,6 @@
 @import './_fonts.scss';
 @import './header.scss';
+@import './calc.scss';
 @import './base.scss';
 @import './normalize.css';
 
@@ -20,14 +21,7 @@ body {
   background-color: $color-bg-blue;
 }
 
-.container {
-  //max-width: 900px;
-  //width: 100%;
-  //margin: 0 auto;
-}
-
 .root {
-  //text-align: center;
   img {
     max-width: 100%;
     display: block;
